@@ -7,32 +7,23 @@ We propose a pipeline that recovers the geographic distribution of an early-stag
 
 ```
 ├── preprocess\_outbreaker.py       
-
 ├── outbreaker\_run.R                
-
 ├── build\_tree.py                  
 ├── run\_bp.py                      
 ├── run\_entropy.py                 
-
 ├── run\_batch.py                   
-
-&#x09;real\_world/
+	real\_world/
 	├── preprocess\_realworld.py        
 	├── run\_realworld.py              
 	├── run\_realworld\_batch.py         
-
-&#x09;├── compare\_nyt.py                 
+	├── compare\_nyt.py                 
 ```
-
-
-## Dependencies
 
 ### Python
 
 ```bash
 pip install -r requirements.txt
 ```
-
 Requires Python 3.10+.
 
 ### R
