@@ -2,7 +2,6 @@
 
 We propose a pipeline that recovers the geographic distribution of an early-stage infectious disease outbreak from income-biased genomic surveillance data. Given a small set of sequenced cases, we infer a transmission tree via outbreaker2, augment it with unsampled intermediate cases using kappa-based interpolation, and run CTMC belief propagation parameterized by Advan human mobility flows to produce a reconstructed geographic case distribution. We evaluate against ground-truth simulated outbreak trees and real-world GISAID/NYT COVID-19 data from Georgia, USA.
 
-\---
 
 ## Repository Structure
 
@@ -25,7 +24,6 @@ We propose a pipeline that recovers the geographic distribution of an early-stag
 &#x09;├── compare\_nyt.py                 
 ```
 
-\---
 
 ## Dependencies
 
