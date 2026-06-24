@@ -44,6 +44,13 @@ Tested with R 4.4+. outbreaker2 version 1.1.0+.
 
 The following external datasets are required and are **not included** in this repository due to licensing restrictions. Obtain them separately and place them as described below.GISAID data requires a GISAID account and adherence to the GISAID Data Access Agreement. NYT data is available at: https://github.com/nytimes/covid-19-data
 
+To reproduce our results on real-world data, we provide our epi-set: 
+
+
+ID:	EPI_SET_260624bd
+DOI: https://doi.org/10.55876/gis8.260624bd
+
+
 \---
 
 ## Reproducing Simulation Results (Table 1)
